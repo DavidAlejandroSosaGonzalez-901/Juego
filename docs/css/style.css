@@ -1,0 +1,39 @@
+body{
+  width: 960px;
+  margin: 0 auto;
+}
+h1{
+  text-align: center;
+}
+#pantalla{
+  border: groove 8px gold;
+  background: lightgreen;   
+}
+#boton{
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+  padding: 3px;
+  border: solid 2px black;
+}
+#boton:hover{ /* Estilo que se activa al pasar el puntero sobre el boton */
+  background-color: lightcoral;
+  font-size: 22px;
+  border: groove 4px red;
+}
+#cabecera {
+  color: rgb(0, 0, 0); 
+  background-color: #1be72c; 
+  margin: 12px 12px 12px 12px;
+  padding: 12px 0px 12px 12px;  
+  list-style: none  
+}  
+footer{ 
+  color: black;                 
+  background: rgb(158, 161, 221);            
+  margin: 12px 12px 12px 12px;
+  padding: 8px 0px 8px 8px; 
+  list-style: none             
+}  
